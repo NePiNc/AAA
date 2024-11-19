@@ -82,7 +82,7 @@ def new():
 def shw():
     os.system("clear")
     cnt=1
-    print("№| Номер | Марка | Модель | Год | weqeqweasdЦвет | ДТП | Пробег | Инфо |")
+    print("№| Номер | Марка | Модель | Год | Цвет | ДТП | Пробег | Инфо |")
     with open(bp,'r') as file:
         reader=csv.reader(file)
         for x in reader:
